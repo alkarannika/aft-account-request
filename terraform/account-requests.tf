@@ -2,7 +2,7 @@ module "account_request_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "karannik+terrafork1@amazon.com"
+    AccountEmail              = "karannik+terrafork3@amazon.com"
     AccountName               = "terra-new-acc-fork-3"
     ManagedOrganizationalUnit = "infra" 
     SSOUserEmail              = "karannik@amazon.com"
